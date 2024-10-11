@@ -35,10 +35,10 @@ int main(){
 			pa = make_pair(i ,j);
 			if(q < n ){
 				blum.push_back(q);
-				}
-			if(p < n && check(blum, p)) blum2.push_back(pa);
 			}
-		}
+			if(p < n && check(blum, p)) blum2.push_back(pa);
+		    }
+	      }
 	}
 	
 	if(check(blum,m)) cout << "YES" << endl ;
