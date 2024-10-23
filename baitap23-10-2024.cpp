@@ -15,6 +15,7 @@ using namespace std;
 				min = a[i];
 			}
 		}
+		// in ra các năm có số lượng người sinh ra là lớn nhất và bé nhất 
 		cout << "SO NGUOI SINH RA NHIEU NHAT LA: " << max << " " ;
 		for(int i = 0 ; i<=n ; i++){
 			if(a[i] == max){
@@ -29,6 +30,7 @@ using namespace std;
 			}
 		}
 		cout << endl;
+		//tìm số năm có cùng số lượng người sinh ra
 		for(int i = 0 ; i<=n ; i++){
 			if(dem[a[i]] > 1){
 				cout << "SO LUONG NGUOI SINH RA: " << a[i] << "  ";
