@@ -76,8 +76,7 @@ void inDT(ListDT lDT) {
     }
 }
 
-int main()
-{
+int main(){
     ListDT DT1;
     initDT(&DT1);
     taoDT(&DT1);
