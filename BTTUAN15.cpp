@@ -117,13 +117,12 @@ int main(){
     Node* chapter1 = new Node("Chapter 1: ABC", 6, 20);
     Node* section1_1 = new Node("Section 1.1: DEF", 6, 10);
     Node* section1_2 = new Node("Section 1.2: GHI", 16, 10);
-    // ... tạo thêm các node khác tương tự
+    
 
-    // Kết nối các node thành cây
     root->con.push_back(chapter1);
     chapter1->con.push_back(section1_1);
     chapter1->con.push_back(section1_2);
-    // ... kết nối các node còn lại
+    
 
     myBook.root = root;
 
